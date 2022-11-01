@@ -1,0 +1,125 @@
+/* This sets the background color for navigation menu*/
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+}
+/* this set the location of the nav menu to left */
+#nav li {
+  float: left;
+}
+/* this place the text horizontally */
+#nav li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+/* Changes the color of the background of text when mouse hovers over it */
+#nav li a:hover {
+  background-color:sandybrown;
+}
+/* Does the same thing as Div Id=NAV but is located in the bottom of page */
+#nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: dimgray;
+}
+#nav2 li {
+  float: left;
+}
+#nav2 li a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+
+#nav2 li a:hover {
+  background-color:sandybrown;
+}
+
+/* sets the font of h2 with a div=container1 */
+#container1 h2{
+    font-size: 30px
+}
+/* HOVER function */
+#container1 h2:hover {
+  background-color:sandybrown;
+}
+/* sets the position of div container1 image */
+#container1 img{
+    float: left;
+    margin-left: 100px;
+    width: 500px;
+    border-radius: 250px
+}
+/* sets the position of blockquote */
+#container1 blockquote {
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.2
+   
+}
+/* sets the font, color and font weight of paragraph with div container2*/
+#container2 p {
+   font-size: 25px;
+   color: crimson;
+   font-weight: bold
+}
+
+/* the rest of the CSS below is identical on the ones above it sets the font-size weight, positioning, text color, alignment and also their font family */
+#container2 blockquote {
+   font-size: 25px;
+   color: maroon;
+   font-weight: bold;
+    margin-left: 300px;
+    margin-right: 300px
+}
+#container2 p:hover {
+  background-color:sandybrown;
+}
+#container2 h2{
+   font-size: 25px;
+    color: blue;
+    font-weight: bolder;
+    font-family: cursive
+}
+#container2 h2{
+   font-size: 28px;
+    color: blue;
+    font-weight: bolder;
+    font-family: cursive
+}
+#container2 li:hover {
+  background-color:gray;
+}
+
+#container3 h2 {
+   text-align: left;
+   font-size: 25px;
+    font-weight: bolder;
+    color: darkblue;
+    text-decoration: underline
+}
+
+#container3 p{
+  margin-left:30px;
+   font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-align: left
+}
+#container3 ol {
+   text-align: left;
+   font-size: 25px;
+    font-weight: bolder;
+    color: brown
+}
